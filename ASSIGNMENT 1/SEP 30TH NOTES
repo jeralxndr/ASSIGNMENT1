@@ -3,4 +3,4 @@ SEP 30TH
 I created 2 div id's for both project images. In css style sheet, created two flex boxes. I think thats the problem as it is also impacting the
 first flex box on the home page
 
-Did not touch code on index.html, but copied formatting for the projects page and ran into trouble
+Did not touch code on index.html, but looked at code to somewhat format the projects page and ran into trouble
