@@ -8,6 +8,14 @@ body{
     font-family: "Roboto", sans-serif;
 }
 
+main {
+    padding: 25px;
+}
+
+
+/* *****************
+NAVIGATION
+***************** */
 #nav-container {
     background-color: #fff;
     border-bottom: solid 0.5px darkgray;
@@ -23,6 +31,10 @@ body{
     padding: 0 10px;
 }
 
+
+/* *******************
+HOME PAGE
+******************* */
 #img-container{
     display: flex;
     justify-content: center;
@@ -38,6 +50,7 @@ body{
 
 .headshot-pic {
     width: 40vw;
+    max-width: 500px;
     border-radius: 15px;
     outline: auto;
 }
@@ -48,12 +61,18 @@ body{
     flex-direction: column;
 }
 
+
+/* ****************
+Projects page
+**************** */
+
 #project1-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 500px;
+    /* height: 500px; */
     flex-direction: column;
+    padding-bottom: 100px;
 }
 
 .pic1-header {
@@ -61,21 +80,23 @@ body{
     padding-bottom: 10px;
 }
 
-.pic1-settings {
+.project-one-pic {
     width: 40vw;
+    max-width: 500px;
+    padding-bottom: 40px;
 }
 
 .pic1-text {
-    padding-top: 10px;
-    justify-content: center;
-    flex-direction: column;
+    text-align: center;
+    width: 80vw;
+    max-width: 600px;
 }
 
 #project2-container {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100px;
+    /* height: 100px; */
     flex-direction: column;
 }
 
@@ -85,11 +106,45 @@ body{
 
 .pic2-settings {
     width: 30vw;
+    max-width: 500px;
     
 }
 
 .pic2-text {
+    text-align: center;
+    width: 80vw;
+    max-width: 600px;
+}
+
+
+/* *************
+ABOUT PAGE
+************* */
+.exampleRule {
 
 }
+
+
+/*************
+CONTACT PAGE
+*************/ 
+
+.contactHeader {
+    padding-bottom: 20px;
+}
+
+.nameInput {
+    padding-bottom: 20px;
+}
+
+.emailInput {
+    padding-bottom: 20px;
+}
+
+
+
+
+
+
 
 
